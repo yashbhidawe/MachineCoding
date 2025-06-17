@@ -7,4 +7,4 @@ function validatePalindrome(str) {
 //For the purpose of user debugging.
 validatePalindrome("race a car");
 
-// module.exports = validatePalindrome;
+export default validatePalindrome;
