@@ -1,5 +1,6 @@
 import ChipsInput from "./components/chipsInput/Chips";
 import Greeting from "./components/dynamic-greeting/Greeting";
+import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
 
 const App = () => {
   return (
@@ -14,6 +15,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Dynamic Greetings App</h2>
         <Greeting />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Toggle Button with a Custom Hook</h2>
+        <ToggleButtonCustom />
       </div>
     </div>
   );
