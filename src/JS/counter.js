@@ -19,4 +19,4 @@ function makeCounter(initialValue = 0) {
   };
 }
 
-// module.exports = makeCounter;
+export default makeCounter;

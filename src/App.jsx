@@ -1,6 +1,8 @@
+import Accordion from "./components/accordian/Accordian";
 import ChipsInput from "./components/chipsInput/Chips";
 import Greeting from "./components/dynamic-greeting/Greeting";
 import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
+import items from "./utils/argument";
 
 const App = () => {
   return (
@@ -19,6 +21,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Toggle Button with a Custom Hook</h2>
         <ToggleButtonCustom />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Accordion Component</h2>
+        <Accordion items={items} />
       </div>
     </div>
   );
