@@ -1,6 +1,7 @@
 import Accordion from "./components/accordian/Accordian";
 import ChipsInput from "./components/chipsInput/Chips";
 import Greeting from "./components/dynamic-greeting/Greeting";
+import Pagination from "./components/pagination/Pagination";
 import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
 import items from "./utils/argument";
 
@@ -25,6 +26,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Accordion Component</h2>
         <Accordion items={items} />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Paginated Component</h2>
+        <Pagination />
       </div>
     </div>
   );
