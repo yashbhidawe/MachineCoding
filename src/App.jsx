@@ -4,6 +4,7 @@ import ContactForm from "./components/contact-form/ContactForm";
 import Greeting from "./components/dynamic-greeting/Greeting";
 import Pagination from "./components/pagination/Pagination";
 import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
+import TogglePassword from "./components/toggle-password/TogglePassword";
 import items from "./utils/argument";
 
 const App = () => {
@@ -35,6 +36,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Contact Form</h2>
         <ContactForm />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Toggle Password</h2>
+        <TogglePassword />
       </div>
     </div>
   );
