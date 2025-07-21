@@ -11,7 +11,18 @@ import items from "./utils/argument";
 const App = () => {
   return (
     <div className="app">
-      <h1 className="app-title">Machine Coding Outputs</h1>
+      <div className="flex">
+        <h1 className="app-title">Machine Coding Outputs</h1>
+
+        <button className="github-btn">
+          <a
+            href="https://github.com/yashbhidawe/machineCoding"
+            target="_blank"
+          >
+            View on Github
+          </a>
+        </button>
+      </div>
 
       <div className="component-section">
         <h2 className="section-title">Chips Input</h2>
