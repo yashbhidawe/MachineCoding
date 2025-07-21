@@ -1,4 +1,5 @@
 import Accordion from "./components/accordian/Accordian";
+import AgeCalculator from "./components/age-calculator/AgeCalculator";
 import ChipsInput from "./components/chipsInput/Chips";
 import ContactForm from "./components/contact-form/ContactForm";
 import Greeting from "./components/dynamic-greeting/Greeting";
@@ -56,6 +57,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Tab Switcher</h2>
         <TabSwitcher />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Age Calculator</h2>
+        <AgeCalculator />
       </div>
     </div>
   );
