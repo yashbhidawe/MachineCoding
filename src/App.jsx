@@ -3,6 +3,7 @@ import ChipsInput from "./components/chipsInput/Chips";
 import ContactForm from "./components/contact-form/ContactForm";
 import Greeting from "./components/dynamic-greeting/Greeting";
 import Pagination from "./components/pagination/Pagination";
+import TabSwitcher from "./components/tab-switcher/TabSwitcher";
 import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
 import TogglePassword from "./components/toggle-password/TogglePassword";
 import items from "./utils/argument";
@@ -40,6 +41,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Toggle Password</h2>
         <TogglePassword />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Tab Switcher</h2>
+        <TabSwitcher />
       </div>
     </div>
   );
