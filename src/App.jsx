@@ -1,6 +1,7 @@
 import Accordion from "./components/accordian/Accordian";
 import AgeCalculator from "./components/age-calculator/AgeCalculator";
 import ChipsInput from "./components/chipsInput/Chips";
+import ConfirmationModal from "./components/confirmation-modal/ConfirmationModal";
 import ContactForm from "./components/contact-form/ContactForm";
 import Greeting from "./components/dynamic-greeting/Greeting";
 import Pagination from "./components/pagination/Pagination";
@@ -20,7 +21,7 @@ const App = () => {
             href="https://github.com/yashbhidawe/machineCoding"
             target="_blank"
           >
-            View on Github
+            View Source-Code
           </a>
         </button>
       </div>
@@ -61,6 +62,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Age Calculator</h2>
         <AgeCalculator />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Confirmation Modal</h2>
+        <ConfirmationModal />
       </div>
     </div>
   );
