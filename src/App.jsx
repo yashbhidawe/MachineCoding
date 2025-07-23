@@ -5,6 +5,7 @@ import ConfirmationModal from "./components/confirmation-modal/ConfirmationModal
 import ContactForm from "./components/contact-form/ContactForm";
 import Greeting from "./components/dynamic-greeting/Greeting";
 import Pagination from "./components/pagination/Pagination";
+import PinItems from "./components/pin-items/PinItems";
 import TabSwitcher from "./components/tab-switcher/TabSwitcher";
 import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
 import TogglePassword from "./components/toggle-password/TogglePassword";
@@ -66,6 +67,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Confirmation Modal</h2>
         <ConfirmationModal />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Pin Items</h2>
+        <PinItems />
       </div>
     </div>
   );
