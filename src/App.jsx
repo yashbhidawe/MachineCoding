@@ -1,5 +1,6 @@
 import Accordion from "./components/accordian/Accordian";
 import AgeCalculator from "./components/age-calculator/AgeCalculator";
+import AsteriskFieldValidation from "./components/asterisk-field-validation/AsteriskFieldValidation";
 import ChipsInput from "./components/chipsInput/Chips";
 import ConfirmationModal from "./components/confirmation-modal/ConfirmationModal";
 import ContactForm from "./components/contact-form/ContactForm";
@@ -71,6 +72,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Pin Items</h2>
         <PinItems />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Asterisk Field Validation</h2>
+        <AsteriskFieldValidation />
       </div>
     </div>
   );

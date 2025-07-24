@@ -62,7 +62,7 @@ function ChipsInput() {
             key={idx}
             className="chip"
             style={{
-              background: "gray",
+              background: "lightGray",
               padding: "2px 8px",
               borderRadius: "10px",
               display: "flex",
