@@ -4,6 +4,7 @@ import AsteriskFieldValidation from "./components/asterisk-field-validation/Aste
 import ChipsInput from "./components/chipsInput/Chips";
 import ConfirmationModal from "./components/confirmation-modal/ConfirmationModal";
 import ContactForm from "./components/contact-form/ContactForm";
+import DrawCircles from "./components/draw-circles/DrawCircles";
 import Greeting from "./components/dynamic-greeting/Greeting";
 import FaqAccordion from "./components/faq/FAQAccordian";
 import Pagination from "./components/pagination/Pagination";
@@ -82,6 +83,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Frequently Asked Questions</h2>
         <FaqAccordion />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Draw Cirlces</h2>
+        <DrawCircles />
       </div>
     </div>
   );
