@@ -12,6 +12,7 @@ import PinItems from "./components/pin-items/PinItems";
 import TabSwitcher from "./components/tab-switcher/TabSwitcher";
 import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
 import TogglePassword from "./components/toggle-password/TogglePassword";
+import ZigzagString from "./components/zigzag-string/ZigzagString";
 import items from "./utils/argument";
 
 const App = () => {
@@ -87,6 +88,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Draw Cirlces</h2>
         <DrawCircles />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Zigzag String</h2>
+        <ZigzagString />
       </div>
     </div>
   );
