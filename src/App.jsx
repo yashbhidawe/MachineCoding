@@ -2,6 +2,7 @@ import Accordion from "./components/accordian/Accordian";
 import AgeCalculator from "./components/age-calculator/AgeCalculator";
 import AsteriskFieldValidation from "./components/asterisk-field-validation/AsteriskFieldValidation";
 import ChipsInput from "./components/chipsInput/Chips";
+import ColorExplorer from "./components/color-explorer/ColorExporer";
 import ConfirmationModal from "./components/confirmation-modal/ConfirmationModal";
 import ContactForm from "./components/contact-form/ContactForm";
 import DrawCircles from "./components/draw-circles/DrawCircles";
@@ -92,6 +93,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Zigzag String</h2>
         <ZigzagString />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Color Explorer</h2>
+        <ColorExplorer />
       </div>
     </div>
   );
