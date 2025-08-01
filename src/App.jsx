@@ -10,6 +10,7 @@ import Greeting from "./components/dynamic-greeting/Greeting";
 import FaqAccordion from "./components/faq/FAQAccordian";
 import Pagination from "./components/pagination/Pagination";
 import PinItems from "./components/pin-items/PinItems";
+import RookChessboard from "./components/rook-chess-board/RookChessBoard";
 import TabSwitcher from "./components/tab-switcher/TabSwitcher";
 import ToggleButtonCustom from "./components/toggle-btn-custom/ToggleButtonCustom";
 import TogglePassword from "./components/toggle-password/TogglePassword";
@@ -97,6 +98,10 @@ const App = () => {
       <div className="component-section">
         <h2 className="section-title">Color Explorer</h2>
         <ColorExplorer />
+      </div>
+      <div className="component-section">
+        <h2 className="section-title">Rook Chess Board</h2>
+        <RookChessboard />
       </div>
     </div>
   );
