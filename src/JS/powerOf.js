@@ -7,3 +7,10 @@ function isPowerOfThree(n) {
 }
 isPowerOfThree(27);
 // module.exports = { isPowerOfThree };
+
+function isPowerOfTwo(n) {
+  if (n <= 0) return false;
+  return (n & (n - 1)) === 0;
+}
+
+isPowerOfTwo(8);
